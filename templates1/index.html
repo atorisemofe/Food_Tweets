@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aketi's Kitchen Experience</title>
+    <link rel="stylesheet" href={{ url_for('static', filename='project1_style.css') }} >
+</head>
+<body>
+
+    <h1>Popular {{ hashtag }} related Tweets</h1>
+   <ol>
+            {% for i in range(0, list_len) %}
+                <li>{{ tweet_author[i] }} <br> {{ tweet_list[i] }} <br> {{ tweet_time[i] }}</li>
+                <hr>
+            {% endfor %}
+        </ol>
+
+</body>
+
+</html>

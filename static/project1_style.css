@@ -1,0 +1,13 @@
+body{
+        font-family: Courier;
+        background-color: White;
+        font-size: 28px;
+        text-align: center;
+  }
+            
+ol{
+        font-size: 18px;
+        background-color: white;
+        font-family: Courier;
+        text-align: left;
+}
