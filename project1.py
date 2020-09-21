@@ -23,8 +23,8 @@ def index():
                  "#foodphotography", "#foodstagram", "#yummy", "#delicious", "#healthy", 
                  "#eat", "#tasty", "#dessert", "#breakfast", "pizza", "chicken", "tacos", "ice cream"]
     search_words = random.choice(Food_tags)
-    print(search_words)
-    print("reached index method")
+    #print(search_words)
+    #print("reached index method")
     date_since = "2019-09-16"
     tweet_list = []
     tweet_time = []

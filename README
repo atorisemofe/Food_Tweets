@@ -1,0 +1,41 @@
+1. Sign up for the twitter developer portal at https://developer.twitter.com
+
+2. Navigate to https://developer.twitter.com/en/portal/projects-and-apps and make a new app.
+
+3. Click on the key symbol after creating your project, and it will take you to your keys and tokens.
+        If needed, you can regenerate your access token and secret. 
+        
+4. Clone this repository by using git clone http://www.github.com/atorisemofe/Project_1
+
+5. In your local copy of this repository, create a new root-level file called twitter.env
+
+6. Add the following line in tweepy.env, and then save tweepy.env
+        export consumer_key='YOUR KEY HERE'
+        export consumer_secret='YOUR KEY HERE'
+        export access_token='YOUR KEY HERE'
+        export access_token_secret='YOUR KEY HERE'
+        
+7. Run the following in your terminal:
+    sudo pip install tweepy
+    (or) sudo pip3 install tweepy
+    (or) pip install tweepy
+    (or) pip3 install tweepy
+    
+8. Install flask using the same process as above ([sudo] pip[3] install flask)
+
+9. Install pandas using the same process as above ([sudo] pip[3] install pandas)
+
+**Important** step by step explanation of python code 
+
+    First we create an app using the Flask
+    
+    Create a function called index where we will randomly choose a hashtag/food from a set list.
+    
+    The chosen tag is then passsed into the tweepy.Cursor api search to return 5 tweets that contain that tag.
+    
+    We then create a for loop to go through every tweet gotten from the step above to get the text in the tweet, the author of the tweet and the date the tweet was posted.
+    
+
+    
+    
+        
