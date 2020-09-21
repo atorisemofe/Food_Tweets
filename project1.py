@@ -25,7 +25,7 @@ def index():
     search_words = random.choice(Food_tags)
     #print(search_words)
     #print("reached index method")
-    date_since = "2019-09-16"
+    date_since = "2015-09-16"
     tweet_list = []
     tweet_time = []
     tweet_author = []
@@ -33,9 +33,9 @@ def index():
     tweets = tw.Cursor(api.search,
                   q=search_words,
                   lang="en",
-                  since=date_since).items(5)
+                  ).items(3)
     tweets
-    
+     
     for tweet in tweets:
         tweet_list.append(tweet.text)
         tweet_time.append(tweet.created_at)
