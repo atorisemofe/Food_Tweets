@@ -8,8 +8,9 @@
 4. Clone this repository by using git clone http://www.github.com/atorisemofe/Project_1
 
 5. In your local copy of this repository, create a new root-level file called twitter.env
+        The .env file will contain your twitter secret keys that wont be shared to anyone
 
-6. Add the following line in tweepy.env, and then save tweepy.env
+6. Add the following line in twitter.env, and then save twitter.env
         export consumer_key='YOUR KEY HERE'
         export consumer_secret='YOUR KEY HERE'
         export access_token='YOUR KEY HERE'
