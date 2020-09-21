@@ -26,6 +26,10 @@
 
 9. Install pandas using the same process as above ([sudo] pip[3] install pandas)
 
+10. Run "source python.env" in your terminal
+
+11. Run "python project1.py" in your terminal
+
 **Important** step by step explanation of python code 
 
     First we create an app using the Flask
